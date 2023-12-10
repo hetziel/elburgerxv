@@ -39,6 +39,7 @@ body {
     height: 70px;
     border-radius: 70px;
     margin-right: 1rem;
+    border: 2px solid #bbb;
 }
 .b-icon{
     width: 24px;
