@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
-img{
+img {
     width: 100%;
 }
+
 body {
     background-color: rgb(63, 63, 63);
     color: white;
@@ -11,9 +12,23 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Concert One', sans-serif;
-
+    margin: 0;
 }
 
+.img-background {
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    top: 0;
+    left: 0;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.img-background img{
+    width: 25%;
+    height: 20%;
+    object-fit: cover;
+}
 .b-card {
     width: 400px;
     height: 300px;
@@ -23,7 +38,8 @@ body {
     background: #f6f6f6;
 
 }
-.b-card [bx-head]{
+
+.b-card [bx-head] {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +57,8 @@ body {
     margin-right: 1rem;
     border: 2px solid #bbb;
 }
-.b-icon{
+
+.b-icon {
     width: 24px;
     height: 24px;
 }
