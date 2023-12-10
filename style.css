@@ -23,12 +23,15 @@ body {
     left: 0;
     flex-wrap: wrap;
     height: 100vh;
+    overflow: hidden;
 }
-.img-background img{
+
+.img-background img {
     width: 25%;
     height: 20%;
     object-fit: cover;
 }
+
 .b-card {
     width: 400px;
     height: 300px;
@@ -61,4 +64,9 @@ body {
 .b-icon {
     width: 24px;
     height: 24px;
+}
+@media (max-width:767px) {
+    .img-background img {
+        width: 50%;
+    }
 }
