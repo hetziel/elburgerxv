@@ -31,8 +31,6 @@ body {
 
 .img-background img {
     width: 25%;
-    height: 20%;
-    object-fit: cover;
 }
 
 .over{
@@ -81,5 +79,11 @@ body {
 @media (max-width:767px) {
     .img-background img {
         width: 50%;
+    }
+}
+
+@media (min-width:1200px) {
+    .img-background img {
+        width: 20%;
     }
 }
