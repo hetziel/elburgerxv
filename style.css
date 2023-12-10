@@ -13,6 +13,7 @@ body {
     align-items: center;
     font-family: 'Concert One', sans-serif;
     margin: 0;
+    position: relative;
 }
 
 .img-background {
@@ -24,6 +25,8 @@ body {
     flex-wrap: wrap;
     height: 100vh;
     overflow: hidden;
+    transform: skew(-4deg, -3deg) scale(1.2);
+    width: 100%;
 }
 
 .img-background img {
@@ -32,14 +35,24 @@ body {
     object-fit: cover;
 }
 
+.over{
+    position: absolute;
+    background: linear-gradient(45deg, black, transparent);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
 .b-card {
     width: 400px;
     height: 300px;
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 50%);
     padding: 1rem;
     color: #262626;
-    background: #f6f6f6;
-
+    background: #00000077;
+    z-index: 1;
 }
 
 .b-card [bx-head] {

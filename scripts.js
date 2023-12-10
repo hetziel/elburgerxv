@@ -1,31 +1,34 @@
+// https://www.youtube.com/watch?v=8fCig63r8sY
 let miniaturas = [
-    'https://i.ytimg.com/an_webp/az7un5vDELs/mqdefault_6s.webp?du=3000&sqp=COTm16sG&rs=AOn4CLBbPpjHtjIHcSjiNXT4A86HJ0FJlw',
-    'https://i.ytimg.com/an_webp/A0M-a6e2JAI/mqdefault_6s.webp?du=3000&sqp=CMrX16sG&rs=AOn4CLBtpAPBrQEOqFhlQhIpNWwXaGcPbA',
-    'https://i.ytimg.com/an_webp/coZhAOyrPFA/mqdefault_6s.webp?du=3000&sqp=CIDu16sG&rs=AOn4CLDpz7wBsC5Au6fw0-Pby1nY7A5i2A',
-    'https://i.ytimg.com/an_webp/x3PLSYkSd4s/mqdefault_6s.webp?du=3000&sqp=CMrs16sG&rs=AOn4CLAhXGcViQzZpZ07y6wKEgzgWdnvNw',
-    'https://i.ytimg.com/an_webp/pCuehXQsIBw/mqdefault_6s.webp?du=3000&sqp=CKzc16sG&rs=AOn4CLDkcbI0dHL4pUhEPWmmgqHf0ECuBQ',
-    'https://i.ytimg.com/an_webp/XyBM2TUMTho/mqdefault_6s.webp?du=3000&sqp=CIbB16sG&rs=AOn4CLAEvqdq1u6v4o_dN8vogoeA7XPGIg',
-    'https://i.ytimg.com/an_webp/FvGkf3tkMiA/mqdefault_6s.webp?du=3000&sqp=CPDv16sG&rs=AOn4CLAilQfKl0wBaLL7seG0B78RbkHRBQ',
-    'https://i.ytimg.com/an_webp/fhTzX7wvscc/mqdefault_6s.webp?du=3000&sqp=CKnn16sG&rs=AOn4CLDt73v4rdfOWCwSjYC6ITtg27xtUA',
-    'https://i.ytimg.com/an_webp/y5e-ojVQyiM/mqdefault_6s.webp?du=3000&sqp=CNX416sG&rs=AOn4CLAoYf8DJ16LrE-0QNTWpGbajViczA',
-    'https://i.ytimg.com/an_webp/eeFpCIKhzZQ/mqdefault_6s.webp?du=3000&sqp=CKT316sG&rs=AOn4CLA6JN7e193V1lOc_zFDOplrh5FOZA',
-    'https://i.ytimg.com/an_webp/68HLygKUVGA/mqdefault_6s.webp?du=3000&sqp=CIDu16sG&rs=AOn4CLCTp4ToaJWdpUf4GS8hq4pSDzqoqg',
-    'https://i.ytimg.com/an_webp/syuYnmEI348/mqdefault_6s.webp?du=3000&sqp=CMHt16sG&rs=AOn4CLDG3hkDhuDGs5o0pCk7vTIHbiNs0w',
-    'https://i.ytimg.com/an_webp/y_iA3btf3To/mqdefault_6s.webp?du=3000&sqp=CJzZ16sG&rs=AOn4CLA0qRMeJ8vFLFksbDuJ52w3aS-GLg',
-    'https://i.ytimg.com/an_webp/aAUN5XNkFm8/mqdefault_6s.webp?du=3000&sqp=CJj016sG&rs=AOn4CLDud3VQgDnMLJY_sghRx09CWNqADg',
-    'https://i.ytimg.com/an_webp/6GlVcgnkPRA/mqdefault_6s.webp?du=3000&sqp=COCx16sG&rs=AOn4CLBRTIpwmwLLdtun4FEoUc4_7Pt9RQ',
-    'https://i.ytimg.com/an_webp/BSgM8sdD4vk/mqdefault_6s.webp?du=3000&sqp=CP_q16sG&rs=AOn4CLD8TAepbUoYDsM_cDAGQxTIeotrog',
-    'https://i.ytimg.com/an_webp/bbo2rkXO79Y/mqdefault_6s.webp?du=3000&sqp=COiA2KsG&rs=AOn4CLDXUMRVhrDXZ9MciA3NY4us_sKO6w',
-    'https://i.ytimg.com/an_webp/DSyxqvUrdug/mqdefault_6s.webp?du=3000&sqp=CLiC2KsG&rs=AOn4CLAUqjWkaZSeCXXAWvaUoAlgCcKuQw',
-    'https://i.ytimg.com/an_webp/GN5dknvHlno/mqdefault_6s.webp?du=3000&sqp=CJa516sG&rs=AOn4CLCKiVxtFuytQjNqazUKDpGgwqUUuA',
-    'https://i.ytimg.com/an_webp/B6JX7QSBd0U/mqdefault_6s.webp?du=3000&sqp=CLiF2KsG&rs=AOn4CLCX0-Klo1uNSjL_A57XG9_fOD_-iQ',
+    'https://www.youtube.com/watch?v=gMO-UOrTWjY',
+    'https://www.youtube.com/watch?v=9Dp2XTP01ns',
+    'https://www.youtube.com/watch?v=8fCig63r8sY',
+    'https://www.youtube.com/watch?v=vSMg5a7JCg0',
+    'https://www.youtube.com/watch?v=c9xg8UYhSS0',
+    'https://www.youtube.com/watch?v=EN6l4m765YM',
+    'https://www.youtube.com/watch?v=TYwBJxEglqc',
+    'https://www.youtube.com/watch?v=SBK6VYhoCkg',
+    'https://www.youtube.com/watch?v=VVIgS48jAPU',
+    'https://www.youtube.com/watch?v=S4WOvhyX7jk',
+    'https://www.youtube.com/watch?v=ln2wl12vBp4',
+    'https://www.youtube.com/watch?v=XningNQP_4g',
+    'https://www.youtube.com/watch?v=619fBDBHmvo',
+    'https://www.youtube.com/watch?v=YPH_BNV14xg',
+    'https://www.youtube.com/watch?v=4BlJk1ba5HM',
+    'https://www.youtube.com/watch?v=BY_mQuMDfnk',
+    'https://www.youtube.com/watch?v=OBP6YrADnEg',
+    'https://www.youtube.com/watch?v=eFJG9JVpQKY',
+    'https://www.youtube.com/watch?v=zXgf4hplBFM',
+    'https://www.youtube.com/watch?v=ow2Fe5N2wFE',
 ]
 
+const regex = /[?&]v=([^&]+)/;
 imgs = [];
 background = document.querySelector(".img-background");
 
 miniaturas.forEach((element, index) => {
-    imgs[index] = '<img src="' + element + '">'
+    const match = element.match(regex);
+    imgs[index] = '<img src="https://i.ytimg.com/vi/' + match[1] + '/hqdefault.jpg">'
 });
 
 background.innerHTML = imgs.join("");
