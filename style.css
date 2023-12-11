@@ -27,13 +27,18 @@ body {
     overflow: hidden;
     transform: skew(-4deg, -3deg) scale(1.2);
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .img-background img {
-    width: 25%;
+    width: 336px;
+    height: 188px;
+    object-fit: cover;
 }
 
-.over{
+.over {
     position: absolute;
     background: linear-gradient(45deg, black, transparent);
     top: 0;
@@ -76,14 +81,29 @@ body {
     width: 24px;
     height: 24px;
 }
+
 @media (max-width:767px) {
     .img-background img {
-        width: 50%;
+        width: 176px;
+        height: 98px;
     }
 }
 
-@media (min-width:1200px) {
+/* @media (min-width:1200px) {
     .img-background img {
         width: 20%;
     }
+} */
+
+.b-links {
+    display: flex;
+    justify-content: center;
+}
+
+.b-links a {
+    background: red;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 4px;
 }
