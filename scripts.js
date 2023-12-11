@@ -31,4 +31,20 @@ miniaturas.forEach((element, index) => {
     imgs[index] = '<img src="https://i.ytimg.com/vi/' + match[1] + '/hqdefault.jpg">'
 });
 
+attr = null;
 background.innerHTML = imgs.join("");
+// imgsFilled = document.querySelectorAll(".img-background img");
+
+// imgsFilled.forEach((element, index) => {
+//     setTimeout(() => {
+        
+//         if ((index - 1) >= 0 && attr) {
+//             imgsFilled[index - 1].setAttribute("src", "https://i.ytimg.com/an_webp/"+ attr+"/mqdefault_6s.webp");
+//         }
+//         attr = element.getAttribute("src");
+//         console.log(index, element, miniaturas[index].match(regex));
+        
+//         element.setAttribute("src", "#"+miniaturas[index])
+        
+//     }, index * 5000);
+// });
